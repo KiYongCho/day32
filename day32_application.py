@@ -5,7 +5,7 @@ import uuid
 import psycopg
 from psycopg.rows import dict_row
 import streamlit as st
-from util.print_util import pp, up
+from util.print_util import pp
 from dotenv import load_dotenv
 
 load_dotenv()
